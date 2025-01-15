@@ -49,6 +49,16 @@ public class Main {
                 }
             }
 
+//            for(Log log : logs){
+//                if(log.getSpielort().equals("München")){
+//                    DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+//
+//                    if(log.getDatum().after( dateFormat.parse("2024-06-30"))){
+//                        System.out.println(log);
+//                    }
+//                }
+//            }
+
         } catch (Exception e) {
             e.printStackTrace();
         }
