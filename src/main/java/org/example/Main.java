@@ -45,7 +45,7 @@ public class Main {
             int kapa = Integer.parseInt(System.console().readLine());
             for(Log log : logs){
                 if(log.getKapazitat() >= kapa){
-                    System.out.println(log);
+                    System.out.println(log.getTeam1() + " vs " + log.getTeam2() + " " + log.getDatum() +  " " + log.getSpielort());
                 }
             }
 
